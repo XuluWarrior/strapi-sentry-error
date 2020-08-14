@@ -6,6 +6,6 @@
 
 module.exports = {
   index: async (ctx, next) => {
-    throw new Error("This error should be sent to sentry");
+    throw("This error should be sent to sentry");
   },
 };
